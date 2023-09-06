@@ -5,53 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
   </head>
   <body>
     <div class="container">
-     <div class="navbar">
-        <div class="menu">
-          <div class="menu_item_active">
+    <nav class="navbar">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle" class="menuToggleLabel">
+    <i class="fa-solid fa-bars"></i>  </label>
+
+        <ul class="menu">
+          <li class="menu_item">
             <a href="#">Home</a>
-          </div>
-          <div class="menu_item">
+          </li>
+          <li class="menu_item">
             <a href="#">Portfolio</a>
-          </div>
-          <div class="menu_item">
+          </li>
+          <li class="menu_item">
             <a href="#">Blog</a>
-          </div>
-          <div class="menu_item">
+          </li>
+          <li class="menu_item">
             <a href="#">About</a>
-          </div>
-          <div class="menu_item">
+          </li>
+          <li class="menu_item">
             <a href="#">Contact</a>
-          </div>
-        </div>
-        <div class="Portfolio2Grow">
+          </li>
+        </ul>
+     
+        <label class="Portfolio2Grow">
           Portfolio<a style="color: #909090">2</a>Grow
-        </div>
-        <div class="sosmedia">
-          <div class="facebook">
+        </label>
+        <ul class="sosmedia">
+          <li class="facebook">
             <a href="#">
               <img src="./images/facebook.png" alt="" />
             </a>
-          </div>
-          <div class="instagram">
+          </li>
+          <li class="instagram">
             <a href="#">
               <img src="./images/instagram.png" alt="" />
             </a>
-          </div>
-          <div class="LinkedIn">
+          </li>
+          <li class="LinkedIn">
             <a href="#">
               <img src="./images/LinkedIn.png" alt="" />
             </a>
-          </div>
-          <div class="Twitter">
+          </li>
+          <li class="Twitter">
             <a href="#">
               <img src="./images/Twitter.png" alt="" />
             </a>
-          </div>
-        </div>
-     </div>
+          </li>
+        </ul>
+    </nav>
+    
       <div class="main">
         <div class="services">
           <p
@@ -165,9 +172,9 @@
           </div>
         </div>
         <div class="middle">
-          <b class="title">Ahmed Saber</b>
+          <div class="title">Ahmed Saber</div>
           <div class="white_rectangle">
-            <div class="photo"></div>
+            <img class="photo" src="./images/ahmed0saber 1.png">
           </div>
         </div>
         <div class="right">
@@ -196,6 +203,6 @@
           </div>
         </div>
       </div>
-    </div>
+      
   </body>
 </html>
